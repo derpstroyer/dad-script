@@ -15,7 +15,7 @@ while True:
 
     raw_num = elem.text
 
-    num = int(raw_num)
+    num = float(raw_num)
 
     if num > 0.25:
         username = 'ACa0a692ebfb58c431597f503662481c20'  # account sid
